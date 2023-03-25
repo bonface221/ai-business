@@ -1,0 +1,23 @@
+.testimonial-card {
+	border: 1px solid rgba(250, 250, 250, 0.2);
+	border-radius: 50px;
+	background-color: rgb(70, 70, 70, 0.5);
+	padding: 40px;
+}
+
+.person {
+	margin-top: 40px;
+}
+.testimonial-card p {
+	font-size: 20px;
+}
+.testimonial-card .text .title {
+	color: #6c3cf3;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.testimonial-card .text .name {
+	font-weight: bolder;
+	font-size: 20px;
+}

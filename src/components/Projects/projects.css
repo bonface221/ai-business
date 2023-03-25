@@ -1,0 +1,21 @@
+.projects {
+	height: 701px;
+}
+.projects__text h3 {
+	color: #8491a0;
+	font-weight: bold;
+	font-size: 16px;
+}
+.projects__text p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 48px;
+}
+.projects__brand img {
+	scale: 0.8;
+}
+.projects__brand {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

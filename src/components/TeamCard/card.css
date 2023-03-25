@@ -1,0 +1,39 @@
+.team-card {
+	position: relative;
+	display: flex;
+	height: 300px;
+}
+.team-card .img-container {
+	/* position: absolute; */
+}
+.team-card .img-container img {
+	/* position: absolute;
+	top: 0;
+	left: 0; */
+}
+.team-card .content {
+	background-color: rgba(70, 70, 70, 0.5);
+	backdrop-filter: blur(5px);
+	border-radius: 50px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 6px;
+	position: absolute;
+	bottom: 110px;
+	right: 80px;
+}
+.team-card .content h3 {
+	font-weight: bolder;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.team-card .content p {
+	font-weight: bold;
+	color: #6c3cf3;
+	font-size: 14px;
+	padding: 0;
+	margin-bottom: 0;
+}

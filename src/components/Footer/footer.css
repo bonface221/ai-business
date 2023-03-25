@@ -1,0 +1,60 @@
+.footer {
+	padding: 100px 0;
+}
+.footer h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.footer h4 {
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 30px;
+}
+.footer .resources .btn1 {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(82, 33, 230, 0.5);
+	font-size: 16px;
+	color: #ffff;
+	width: 100%;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+.footer .resources .btn2 {
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(70, 70, 70, 0.5);
+	border-radius: 50px;
+	font-size: 16px;
+	color: white;
+}
+
+.footer .subscribe > p {
+	font-size: 20px;
+	color: #968c8c;
+}
+.footer .subscribe .input-form h3 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.footer .footer-copyright {
+	padding-top: 20px;
+}
+
+.footer .footer-copyright > p {
+	font-size: 16px;
+	color: #8491a0;
+}
+.footer .footer-copyright .social-handles {
+	scale: 1.6;
+}
+.footer .footer-copyright .social-handles .twitter {
+	color: #26a7de;
+}
+.footer .footer-copyright .social-handles .dribble {
+	color: #e94b88;
+}
+.footer .footer-copyright .social-handles .linkedIn {
+	color: #0077b5;
+}

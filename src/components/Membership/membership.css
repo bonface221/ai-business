@@ -1,0 +1,111 @@
+.membership {
+	padding: 40px;
+}
+
+.membership__left {
+	background-color: #f9e4b0;
+	color: #3c3c3c;
+	padding: 60px 0;
+}
+.membership__left h3 {
+	font-size: 48px;
+	font-weight: bold;
+	padding: 0 30px;
+}
+.membership__left h4 {
+	font-weight: normal;
+	font-size: 24px;
+	padding: 0 30px;
+	padding-bottom: 20px;
+}
+.membership__left p {
+	color: #968c8c;
+	font-size: 20px;
+	padding: 0 30px;
+}
+.membership-list li {
+	color: #707070;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 10px 40px;
+}
+.membership-list li span {
+	font-weight: bold;
+}
+
+.membership-list .icon {
+	color: #5a4c4c;
+}
+
+.membership__right {
+	padding: 50px;
+}
+.membership__right > h3 {
+	font-weight: bold;
+	font-size: 48px;
+}
+.membership__right > p {
+	font-size: 24px;
+	color: #afafaf;
+	text-align: center;
+}
+.membership__right .join {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 30px;
+}
+.join .sign-up > h4 {
+	font-size: 20px;
+}
+.join .sign-up > p {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 16px;
+}
+.join .sign-up-btn > p {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.join .sign-up-btn > button {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(82, 33, 230, 0.5);
+	font-size: 16px;
+	color: #ffff;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.join .sign-up-items li {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 1px;
+}
+.join .sign-up-items li span {
+	color: #5a4c4c;
+}
+.join .join-now h3 {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.join .join-now > p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.join .join-now .join-now-btn > p {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.join .join-now .join-now-btn > button {
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(70, 70, 70, 0.5);
+	border-radius: 50px;
+	font-size: 18px;
+	color: white;
+}
+.join .join-now .join-now-items li {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.join .join-now .join-now-items .icon {
+	color: #5a4c4c;
+}

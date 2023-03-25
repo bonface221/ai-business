@@ -1,0 +1,35 @@
+.overview {
+	position: relative;
+	background: no-repeat center center url("../../assets/bg.png");
+	background-size: cover;
+	color: #ffff;
+}
+.overview__all {
+	position: relative;
+	z-index: 999;
+}
+.overview::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(24, 24, 35, 0.5);
+	z-index: 1;
+}
+
+.top > button {
+	background: #fdfdfd;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+.top h3 {
+	font-size: 48px;
+	color: #ffff;
+	font-weight: bold;
+}
+.top h3 span {
+	color: #f9e4b0;
+}

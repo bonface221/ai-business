@@ -1,0 +1,36 @@
+.faq {
+	padding: 100px 0;
+}
+.faq .heading h3 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.faq .heading p {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.faq .foot-note h4 {
+	color: #f9e4b0;
+	font-size: 20px;
+}
+.faq .foot-note u {
+	font-size: 20px;
+	color: #7b8086;
+	display: block;
+}
+.faq .foot-note > button {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(70, 70, 70, 0.5);
+	font-size: 18px;
+	border-radius: 50px;
+	margin-top: 15px;
+	padding: 12px 25px;
+	color: #fff;
+}
+.faq .faq-cards {
+	width: 60%;
+}
