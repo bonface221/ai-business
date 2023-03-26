@@ -5,7 +5,7 @@ function Card() {
 	return (
 		<div className="benefits-card">
 			<img src={Rocket} alt="" />
-			<div className="rocket d-flex justify-content-between">
+			<div className="rocket">
 				<p></p>
 				<h3>A website done in record time.</h3>
 			</div>

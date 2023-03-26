@@ -4,10 +4,12 @@
 	background-size: cover;
 	color: #ffff;
 	padding: 80px 0;
+	width: 100%;
 }
 .testimonials__all {
 	position: relative;
 	z-index: 999;
+	padding: 0 30px;
 }
 .testimonials::before {
 	content: "";
@@ -23,5 +25,19 @@
 .testimonials__all .heading {
 	font-weight: bold;
 	font-size: 48px;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 682px) {
+	.testimonials__all .heading {
+		font-size: 42px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.testimonials__all {
+		padding: 0 10px;
+	}
+	.testimonials__all .heading {
+		font-size: 38px;
+	}
 }

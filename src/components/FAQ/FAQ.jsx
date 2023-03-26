@@ -1,10 +1,22 @@
+import { useState, useEffect } from "react";
 import Card from "../FAQCard/Card";
 import "./faq.css";
 
 function FAQ() {
 	const array = [1, 2, 3, 4, 5, 6, 7];
+	const [fullWidth, setFullWidth] = useState("container");
+
+	useEffect(() => {
+		const handleResize = () => {
+			setFullWidth(window.innerWidth <= 991 ? "container-fluid" : "container");
+		};
+		handleResize();
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
 	return (
-		<div className="faq container text-white">
+		<div className={`faq text-white ${fullWidth}`}>
 			<div className="heading">
 				<h3>Frequently Asked Questions</h3>
 				<p>Find out everything you want to know about AI Profit Genius</p>

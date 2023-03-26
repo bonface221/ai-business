@@ -9,8 +9,8 @@ function Benefits() {
 				<div className="benefits-top col-md-12 col-lg-12 text-center">
 					<button className="btn btn1">BENEFITS OF AI PROFIT GENIUS</button>
 					<h3>
-						<span>Unlock your AI Business machine with</span> AI Profit Genius -
-						The ultimate AI Business builder.
+						<p>Unlock your AI Business machine with</p>
+						<p>AI Profit Genius - The ultimate AI Business builder.</p>
 					</h3>
 					<p>
 						Achieve next-level Online business Efficiency with AI Profit Genius

@@ -1,5 +1,8 @@
+.footer-container {
+	background-color: #181823;
+}
 .footer {
-	padding: 100px 0;
+	padding: 40px 0;
 }
 .footer h3 {
 	font-size: 16px;
@@ -31,6 +34,7 @@
 
 .footer .subscribe > p {
 	font-size: 20px;
+	margin-top: 15px;
 	color: #968c8c;
 }
 .footer .subscribe .input-form h3 {
@@ -42,19 +46,43 @@
 	padding-top: 20px;
 }
 
-.footer .footer-copyright > p {
+.copyright-text {
 	font-size: 16px;
 	color: #8491a0;
 }
-.footer .footer-copyright .social-handles {
+.social-handle-item {
 	scale: 1.6;
+	margin-right: 13px;
 }
-.footer .footer-copyright .social-handles .twitter {
+.twitter {
 	color: #26a7de;
 }
-.footer .footer-copyright .social-handles .dribble {
+.social-handles .dribble {
 	color: #e94b88;
 }
-.footer .footer-copyright .social-handles .linkedIn {
+.social-handles .linkedIn {
 	color: #0077b5;
+}
+#email {
+	background-color: transparent;
+	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 10px 20px;
+}
+#email::placeholder {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.subscribe .input-form .email-form {
+	position: relative;
+}
+.subscribe .input-form .email-form .get-access {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	background-color: #5221e6;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 15px;
 }

@@ -24,10 +24,31 @@
 	margin: 20px auto;
 	width: 90%;
 }
-.benefits-top > h3 span {
+.benefits-top > h3 p:first-child {
 	font-style: italic;
 	display: block;
 }
 .benefits-top > p {
 	font-size: 24px;
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+}
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+	.benefits-top > h3 {
+		font-size: 37px;
+	}
+	.benefits-top > p {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.benefits-top > h3 {
+		font-size: 30px;
+	}
+	.benefits-top > p {
+		font-size: 13px;
+	}
 }

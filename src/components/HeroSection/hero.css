@@ -2,7 +2,6 @@
 	position: relative;
 	background: no-repeat center center url("../../assets/bg.png");
 	background-size: cover;
-	height: 120vh;
 	color: #ffff;
 }
 .hero__all {
@@ -53,8 +52,17 @@
 .hero__btns .hero__btn2 {
 	background: rgba(82, 33, 230, 0.5) !important;
 }
+.hero__text .video-overlay {
+	position: relative;
+	width: 70%;
+	margin: -30px auto 0 auto;
+	top: 70px;
+}
 
 /* Media queries */
+
+/* @media screen and (max-width: 991px) {
+} */
 @media screen and (max-width: 1000px) {
 	.hero__text h3 {
 		font-size: 55px;

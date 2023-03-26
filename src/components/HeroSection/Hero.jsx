@@ -1,11 +1,24 @@
+import { useState, useEffect } from "react";
 import { ReactComponent as Play } from "../../assets/play.svg";
 import Navbar from "../Navbar/Navbar";
+import videoPlaceholder from "../../assets/lightbox.png";
 import "./hero.css";
 
 function Hero() {
+	const [fullWidth, setFullWidth] = useState("container");
+
+	useEffect(() => {
+		const handleResize = () => {
+			setFullWidth(window.innerWidth <= 991 ? "container-fluid" : "container");
+		};
+		handleResize();
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
 	return (
 		<div className="hero">
-			<div className="hero__all container">
+			<div className={`hero__all ${fullWidth}`}>
 				<Navbar />
 				<div className="hero__text text-center px-1 mt-3">
 					<p>AI Profit Genius, mode for AI business entrepreneurs.</p>
@@ -22,6 +35,9 @@ function Hero() {
 						</button>
 					</div>
 					<p className="mt-4">No credit card required.</p>
+					<div className="video-overlay">
+						<img src={videoPlaceholder} className="img-fluid" alt="" />
+					</div>
 				</div>
 			</div>
 		</div>
