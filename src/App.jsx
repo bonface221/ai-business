@@ -1,10 +1,10 @@
 import "./App.css";
-import Form from "./components/ConsultingForm/Form";
+import FormRedirect from "./components/FormRedirect/FormRedirect";
 
 function App() {
 	return (
 		<div className="App">
-			<Form />
+			<FormRedirect />
 		</div>
 	);
 }

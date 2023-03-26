@@ -1,0 +1,90 @@
+.redirect {
+	overflow: hidden;
+	background-color: #111112;
+	min-height: 100vh;
+	color: white;
+	padding: 80px 100px;
+}
+.upper-part > h3:first-child {
+	font-size: 24px;
+	color: #5221e6;
+	margin-bottom: 20px;
+}
+.upper-part > h3:nth-child(2) {
+	font-size: 22px;
+	color: #ffff;
+	margin-bottom: 40px;
+}
+.redirects h4 {
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.redirects button {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 10px 20px;
+	width: 300px;
+}
+.redirects button.btn1 {
+	background-color: rgba(82, 33, 230, 0.5);
+	margin-bottom: 20px;
+}
+.redirects button.btn2 {
+	background-color: rgba(70, 70, 70, 0.5);
+}
+.redirects button.btn1:hover {
+	background-color: rgba(73, 21, 230, 0.5);
+}
+.redirects button.btn2:hover {
+	background-color: rgba(141, 141, 141, 0.5);
+}
+.logo-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 8%;
+}
+.logo-text > p {
+	font-size: 18px;
+	color: #8491a0;
+	margin-left: 30px;
+	/* width: 70%; */
+}
+.logo-text img {
+	width: 130px;
+	height: 142px;
+}
+
+/* Media queries */
+@media screen and (max-width: 909px) {
+	.logo-text {
+		padding: 0 2%;
+	}
+	.redirect {
+		padding: 80px 70px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.logo-text {
+		padding: 0;
+	}
+	.redirect {
+		padding: 60px 40px;
+	}
+}
+@media screen and (max-width: 460px) {
+	.logo-text {
+		padding: 0;
+	}
+	.redirect {
+		padding: 60px 30px;
+	}
+	.logo-text img {
+		width: 100px;
+		height: 120px;
+	}
+}
