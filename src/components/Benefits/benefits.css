@@ -17,13 +17,16 @@
 	border-radius: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 10px 20px;
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 .benefits-top > h3 {
 	font-size: 48px;
-	font-style: italic;
 	margin: 20px auto;
-	width: 65%;
+	width: 90%;
+}
+.benefits-top > h3 span {
+	font-style: italic;
+	display: block;
 }
 .benefits-top > p {
 	font-size: 24px;

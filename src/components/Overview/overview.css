@@ -7,6 +7,7 @@
 .overview__all {
 	position: relative;
 	z-index: 999;
+	padding: 70px 0;
 }
 .overview::before {
 	content: "";
@@ -24,12 +25,69 @@
 	font-size: 16px;
 	font-weight: bold;
 	color: rgb(0, 0, 0);
+	margin-bottom: 25px;
 }
 .top h3 {
-	font-size: 48px;
+	font-size: 40px;
 	color: #ffff;
 	font-weight: bold;
+	margin-top: 20px;
+	text-align: left;
 }
 .top h3 span {
 	color: #f9e4b0;
+}
+.top h3,
+.top .overview__text {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.overview__text > p {
+	font-size: 20px;
+	flex: 2;
+	text-align: left;
+}
+.overview__text div > button {
+	background-color: rgba(70, 70, 70, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	font-size: 16px;
+	color: #ffff;
+	padding: 8px 30px;
+	border-radius: 50px;
+}
+.overview__all .available-services {
+	background-color: rgba(70, 70, 70, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	margin-top: 40px;
+	border-radius: 20px;
+	padding: 50px 60px;
+}
+.overview__all .available-services .overview-nav > h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.overview__all .available-services .overview-nav h4:first-child {
+	color: #f9e4b0;
+	position: relative;
+}
+.overview__all .available-services .overview-nav h4:first-child::after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid white;
+	position: absolute;
+	width: 100%;
+	bottom: -25px;
+	color: #f9e4b0;
+}
+.overview__all .available-services .overview-bottom-text div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 17px;
+	color: #8491a0;
+}
+.overview__all .available-services .overview-bottom-text div span {
+	align-self: flex-start;
+	color: #fff;
 }

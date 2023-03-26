@@ -7,7 +7,7 @@ function Hero() {
 		<div className="hero">
 			<div className="hero__all container">
 				<Navbar />
-				<div className="hero__text text-center px-1 mt-5">
+				<div className="hero__text text-center px-1 mt-3">
 					<p>AI Profit Genius, mode for AI business entrepreneurs.</p>
 					<h3>
 						Get your AI Business <br /> Up and running <br />
