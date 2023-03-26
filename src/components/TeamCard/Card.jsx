@@ -4,7 +4,7 @@ import "./card.css";
 function Card() {
 	return (
 		<div className="team-card">
-			<div className="img-container">
+			<div className="img-container my-auto">
 				<img src={Team1} alt="" />
 				<div className="content">
 					<h3 className="name">Toblas Boya</h3>

@@ -61,8 +61,6 @@
 
 /* Media queries */
 
-/* @media screen and (max-width: 991px) {
-} */
 @media screen and (max-width: 1000px) {
 	.hero__text h3 {
 		font-size: 55px;
@@ -102,4 +100,6 @@
 	.hero__text h3 {
 		font-size: 30px;
 	}
+}
+@media screen and (max-width: 400px) {
 }

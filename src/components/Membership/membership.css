@@ -1,13 +1,11 @@
 .membership {
 	padding: 40px;
 }
-.membership-left-container {
-	background-color: #f9e4b0;
-}
 
 .membership__left {
 	color: #3c3c3c;
 	padding: 60px 0;
+	background-color: #f9e4b0;
 }
 .membership__left h3 {
 	font-size: 40px;

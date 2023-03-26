@@ -7,26 +7,12 @@ function Team() {
 			<h3>Meet the team of AI Profit Genius</h3>
 			<p>A gusto group of seasoned digital entrepreneurs</p>
 			<div className="team-cards">
-				<div className="row">
-					<div className="col-md-4">
-						<Card />
-					</div>
-					<div className="col-md-4">
-						<Card />
-					</div>
-					<div className="col-md-4">
-						<Card />
-					</div>
-					<div className="col-md-4">
-						<Card />
-					</div>
-					<div className="col-md-4">
-						<Card />
-					</div>
-					<div className="col-md-4">
-						<Card />
-					</div>
-				</div>
+				<Card className="team-card" />
+				<Card className="team-card" />
+				<Card className="team-card" />
+				<Card className="team-card" />
+				<Card className="team-card" />
+				<Card className="team-card" />
 			</div>
 		</div>
 	);

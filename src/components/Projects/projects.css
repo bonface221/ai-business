@@ -26,11 +26,7 @@
 }
 
 /* Media queries */
-/* @media screen and (max-width: 768px) {
-	.projects__text p {
-		font-size: 33px;
-	}
-} */
+
 @media screen and (max-width: 768px) {
 	.projects__text p {
 		font-size: 33px;
@@ -40,7 +36,9 @@
 	.projects__text p {
 		font-size: 28px;
 	}
-	/* .projects__brand img {
-		width: 150px;
-	} */
+}
+@media screen and (max-width: 400px) {
+	.projects {
+		padding-top: 150px;
+	}
 }

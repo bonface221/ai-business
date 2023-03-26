@@ -58,16 +58,16 @@ function Footer() {
 				<hr />
 				<div className="footer-copyright">
 					<div className="row">
-						<div className="col-md-4 text-start my-auto">
+						<div className="col-md-4 col-sm-4 col-lg-4 text-start my-auto">
 							<img src={Logo} alt="" />
 						</div>
-						<p className="col-md-4 copyright-text  my-auto">
+						<p className="col-md-4 col-sm-4 col-lg-4 copyright-text  my-auto">
 							<span>
 								{" "}
 								Not Copyright 2020 • Robin Williams. Webflow cloneable
 							</span>
 						</p>
-						<div className="social-handles col-md-4 my-auto text-end">
+						<div className="social-handles col-md-4 col-sm-4 col-lg-4 my-auto ">
 							<div>
 								<BsTwitter className="twitter social-handle-item" />{" "}
 								<BsDribbble className="dribble social-handle-item" />{" "}

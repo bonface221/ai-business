@@ -3,8 +3,7 @@
 	background: no-repeat center center url("../../assets/robot-handshake.png");
 	background-size: cover;
 	color: #ffff;
-	padding: 80px 0;
-	width: 100%;
+	padding: 80px 10px;
 }
 .testimonials__all {
 	position: relative;

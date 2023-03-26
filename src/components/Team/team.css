@@ -13,3 +13,9 @@
 	margin-bottom: 80px;
 	text-align: center;
 }
+.team-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 50px 20px;
+	place-items: center;
+}

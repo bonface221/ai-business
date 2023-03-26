@@ -7,27 +7,25 @@ function Membership() {
 	return (
 		<div className="membership text-white container-fluid">
 			<div className="row">
-				<div className="membership-left-container">
-					<div className="membership__left col-md-6 col-lg-6 col-sm-12">
-						<h3>Meet the team of AI Profit Genius</h3>
-						<h4>A gusto group of seasoned digital entrepreneurs</h4>
-						<p>
-							The AI Business Club is for entrpreneurs, business owners, and
-							professionals looking to integrate AI into thier operations for
-							growth and success. The AI Business Club is for entrpreneurs,
-						</p>
+				<div className="membership__left col-md-6 col-lg-6 col-sm-12">
+					<h3>Meet the team of AI Profit Genius</h3>
+					<h4>A gusto group of seasoned digital entrepreneurs</h4>
+					<p>
+						The AI Business Club is for entrpreneurs, business owners, and
+						professionals looking to integrate AI into thier operations for
+						growth and success. The AI Business Club is for entrpreneurs,
+					</p>
 
-						<div className="membership-list">
-							<ul className="list-unstyled">
-								{array.map((a, i) => (
-									<li key={i} className="">
-										<TiTick className="icon" />{" "}
-										<span>I worked with the guys at CBRE</span> to redesign
-										their entire website and mobile app from
-									</li>
-								))}
-							</ul>
-						</div>
+					<div className="membership-list">
+						<ul className="list-unstyled">
+							{array.map((a, i) => (
+								<li key={i} className="">
+									<TiTick className="icon" />{" "}
+									<span>I worked with the guys at CBRE</span> to redesign their
+									entire website and mobile app from
+								</li>
+							))}
+						</ul>
 					</div>
 				</div>
 

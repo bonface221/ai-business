@@ -60,6 +60,9 @@
 .social-handles .dribble {
 	color: #e94b88;
 }
+.social-handles {
+	text-align: end;
+}
 .social-handles .linkedIn {
 	color: #0077b5;
 }
@@ -68,6 +71,7 @@
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	padding: 10px 20px;
+	color: #fff;
 }
 #email::placeholder {
 	font-size: 14px;
@@ -85,4 +89,12 @@
 	color: #fff;
 	font-size: 13px;
 	border-radius: 15px;
+}
+
+/* Media queries */
+@media screen and (max-width: 576px) {
+	.social-handles {
+		text-align: start;
+		padding-top: 10px;
+	}
 }
