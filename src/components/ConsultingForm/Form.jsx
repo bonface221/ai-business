@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./form.css";
 
 function Form() {
@@ -8,6 +9,12 @@ function Form() {
 					<div className="col-md-12 col-sm-12 col-lg-6">
 						<div className="heading text-center">
 							<p>
+								<Link
+									className="btn btn-primary btn-sm"
+									to={"/consultation-redirect"}
+								>
+									Redirect page{" "}
+								</Link>
 								We have a lot of demand. We will get back to you as soon as
 								possible
 							</p>
@@ -77,6 +84,7 @@ function GenericInput({ label, placeholder, type = "text" }) {
 				className="generic-input-text form-control"
 				id="business"
 				placeholder={placeholder}
+				required
 			/>
 		</div>
 	);

@@ -1,4 +1,5 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import "./redirect.css";
 
@@ -13,9 +14,10 @@ function FormRedirect() {
 
 				<div className="redirects">
 					<h4>Try our demo AI Solution features and the dashboard</h4>
-
 					<button className="btn btn1">
-						Sign Up <AiOutlineArrowRight />
+						<Link to={"/sign-in"} className="sign-up-link">
+							Sign Up <AiOutlineArrowRight />
+						</Link>
 					</button>
 				</div>
 			</div>

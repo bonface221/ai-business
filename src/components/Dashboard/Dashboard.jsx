@@ -17,6 +17,7 @@ import { ReactComponent as LogOut } from "../../assets/log-out.svg";
 import Logo from "../../assets/logo.png";
 
 import "./dashboard.css";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
 	const [show, setShow] = useState(false);
@@ -47,7 +48,10 @@ function Dashboard() {
 						className="fixed-nav col-sm-3 col-md-3 col-lg-2"
 						style={{ display: show ? "inline-block" : "none" }}
 					>
-						<img src={Logo} alt="" />
+						<Link to={"/"}>
+							<img src={Logo} alt="" />
+						</Link>
+
 						{showClose && (
 							<MdOutlineClose
 								onClick={showNav}

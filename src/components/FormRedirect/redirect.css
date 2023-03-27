@@ -33,6 +33,13 @@
 	background-color: rgba(82, 33, 230, 0.5);
 	margin-bottom: 20px;
 }
+.sign-up-link {
+	color: #fff;
+	text-decoration: none;
+}
+.sign-up-link:hover {
+	color: #fff;
+}
 .redirects button.btn2 {
 	background-color: rgba(70, 70, 70, 0.5);
 }

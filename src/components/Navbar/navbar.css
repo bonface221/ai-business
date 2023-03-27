@@ -7,8 +7,18 @@
 	outline: none;
 	border: none;
 	padding: 32px 24px;
+	text-decoration: none;
+}
+.navbar__btn:hover {
+	background-color: #4007ed;
+	color: #fff;
 }
 .navbar__text {
 	font-size: 17px;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+.navbar__text:hover {
+	text-decoration: underline;
 	color: rgba(255, 255, 255, 0.5);
 }
