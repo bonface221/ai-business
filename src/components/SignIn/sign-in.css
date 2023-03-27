@@ -1,0 +1,132 @@
+.sign-in {
+	background: no-repeat center center url("../../assets/robot-handshake.png");
+	background-size: cover;
+	color: #ffff;
+	height: 100vh;
+}
+.all-items {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	z-index: 999;
+	padding: 0 30px;
+}
+.sign-in::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(24, 17, 45, 0.5);
+	backdrop-filter: blur(33.5px);
+	z-index: 1;
+}
+
+.sign-in .login-form {
+	display: flex;
+	width: 100%;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+}
+.login-form .content h3 {
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffff;
+	line-height: 150%;
+}
+.login-form .content .custom-input {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	border: 1px solid rgba(251, 251, 251, 0.2);
+	backdrop-filter: blur(10px);
+}
+.login-form .content form .email,
+.login-form .content form .password {
+	position: relative;
+}
+.login-form .content form .icon {
+	z-index: 4000;
+	position: absolute;
+	left: 5.21%;
+	top: 40.21%;
+	color: #fff;
+	width: 21.5px;
+	height: 21.5px;
+}
+
+.login-form .content .custom-input.type-text {
+	padding: 26px 204px 22px 72px;
+}
+.login-form .content .custom-input.type-text::placeholder {
+	font-size: 15px;
+	line-height: 150%;
+	color: #ffff;
+	font-weight: 300px;
+}
+.login-form .content input[type="password"] {
+	margin-bottom: 31px;
+	margin-top: 6px;
+}
+.login-form .content input[type="submit"] {
+	background: rgba(82, 33, 230, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(33.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	color: #fff;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 23px 147px;
+}
+.login-form .content input[type="button"] {
+	background: rgba(11, 9, 9, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 10px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	padding: 24px 106px;
+}
+.login-form .content form > p {
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #fff;
+	padding: 8px 0 45px 0;
+	text-align: center;
+}
+.login-form .content form > p span {
+	color: rgb(33, 132, 223);
+}
+.horizontal-row {
+	width: 100%;
+	margin-bottom: 51px;
+}
+.sign-with-google .google {
+	position: relative;
+}
+.login-form .content form .sign-with-google .google .icon {
+	top: 35%;
+}
+.sign-with-google > p {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 13px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+/* Media queries */
+@media screen and (max-width: 700px) {
+	.all-items {
+		padding: 0 10px;
+	}
+	.sign-in .login-form {
+		height: 80vh;
+	}
+}
