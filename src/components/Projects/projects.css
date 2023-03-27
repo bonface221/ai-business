@@ -4,7 +4,7 @@
 	position: relative;
 	z-index: 2;
 }
-.projects .circle {
+/* .projects .circle {
 	position: absolute;
 	top: -120%;
 	right: -50%;
@@ -17,7 +17,7 @@
 	top: -75%;
 	right: -50%;
 	z-index: -1;
-}
+} */
 .projects__section {
 	padding: 0 40px;
 }

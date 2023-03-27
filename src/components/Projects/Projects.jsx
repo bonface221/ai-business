@@ -18,24 +18,26 @@ function Projects() {
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 	return (
-		<div
-			className={`projects d-flex align-items-center justify-content-center ${fullWidth}`}
-		>
-			<div className="projects__section row">
-				<div className="col-md-11 col-lg-11 row">
-					<img src={Circle} className="circle" alt="" />
-					<img src={Dots} className="dots" alt="" />
-					<div className="projects__text col-md-12">
-						<h3>MY PROJECTS</h3>
-						<p>Join other AI entrepreneurs & profit with your Ai business</p>
+		<div className="projects-container">
+			<div
+				className={`projects d-flex align-items-center justify-content-center ${fullWidth}`}
+			>
+				<div className="projects__section row">
+					<div className="col-md-11 col-lg-11 row">
+						{/* <img src={Circle} className="circle" alt="" />
+						<img src={Dots} className="dots" alt="" /> */}
+						<div className="projects__text col-md-12">
+							<h3>MY PROJECTS</h3>
+							<p>Join other AI entrepreneurs & profit with your Ai business</p>
+						</div>
+						<div className="projects__brand mt-4 col-md-12">
+							<img className="img-fluid" src={Paypal} alt="" />
+							<img className="img-fluid" src={Stripe} alt="" />
+							<img className="img-fluid" src={Amazon} alt="" />
+						</div>
 					</div>
-					<div className="projects__brand mt-4 col-md-12">
-						<img className="img-fluid" src={Paypal} alt="" />
-						<img className="img-fluid" src={Stripe} alt="" />
-						<img className="img-fluid" src={Amazon} alt="" />
-					</div>
+					<div className="col-md-1 col-lg-1"></div>
 				</div>
-				<div className="col-md-1 col-lg-1"></div>
 			</div>
 		</div>
 	);
