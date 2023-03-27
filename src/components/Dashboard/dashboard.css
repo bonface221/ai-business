@@ -113,7 +113,7 @@
 	text-decoration: underline;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: start;
 	gap: 2px;
 }
 .dashboard .main .main-content .main-content-right h3 {
