@@ -1,9 +1,11 @@
+import Quotes from "../../assets/quotes.png";
 import T1 from "../../assets/t1.png";
 import "./card.css";
 
 function Card() {
 	return (
 		<div className="testimonial-card">
+			<img className="quotes" src={Quotes} alt="" />
 			<p>
 				The AI Business Club is for entrpreneurs, business owners, and
 				professionals looking to integrate

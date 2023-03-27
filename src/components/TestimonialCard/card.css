@@ -3,6 +3,12 @@
 	border-radius: 50px;
 	background-color: rgb(70, 70, 70, 0.5);
 	padding: 40px;
+	position: relative;
+}
+.testimonial-card .quotes {
+	position: absolute;
+	top: -22px;
+	left: 25px;
 }
 
 .person {

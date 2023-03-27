@@ -1,3 +1,7 @@
+.faq-container {
+	background: rgba(24, 17, 45, 0.5);
+	padding: 20px 0;
+}
 .faq {
 	padding: 10px 0 20px 0;
 }

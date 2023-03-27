@@ -3,6 +3,7 @@
 	background: no-repeat center center url("../../assets/bg.png");
 	background-size: cover;
 	color: #ffff;
+	z-index: 2;
 }
 .overview__all {
 	position: relative;
@@ -26,6 +27,9 @@
 	font-weight: bold;
 	color: rgb(0, 0, 0);
 	margin-bottom: 25px;
+}
+.top > button:hover {
+	background: #959393;
 }
 .top h3 {
 	font-size: 40px;

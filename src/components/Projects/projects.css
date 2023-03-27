@@ -2,6 +2,21 @@
 	height: 80vh;
 	padding-top: 100px;
 	position: relative;
+	z-index: 2;
+}
+.projects .circle {
+	position: absolute;
+	top: -120%;
+	right: -50%;
+	scale: 0.3;
+	z-index: -1;
+}
+.projects .dots {
+	position: absolute;
+	scale: 0.05;
+	top: -75%;
+	right: -50%;
+	z-index: -1;
 }
 .projects__section {
 	padding: 0 40px;

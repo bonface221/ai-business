@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Dots from "../../assets/dots.png";
+import Circle from "../../assets/ellipses.png";
 import Paypal from "../../assets/paypal.png";
 import Stripe from "../../assets/stripe.png";
 import Amazon from "../../assets/amazon-pay.png";
@@ -21,6 +23,8 @@ function Projects() {
 		>
 			<div className="projects__section row">
 				<div className="col-md-11 col-lg-11 row">
+					<img src={Circle} className="circle" alt="" />
+					<img src={Dots} className="dots" alt="" />
 					<div className="projects__text col-md-12">
 						<h3>MY PROJECTS</h3>
 						<p>Join other AI entrepreneurs & profit with your Ai business</p>
